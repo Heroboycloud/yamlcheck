@@ -1,0 +1,8 @@
+name: Test 1
+on: [push]
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+    -name: Hello world
+     run: echo "Hello World\n Workflow running"
